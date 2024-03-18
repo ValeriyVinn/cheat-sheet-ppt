@@ -8,8 +8,115 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+   
+
+    <main class="main">
+      <section class="section section-notice">
+        <div class="container">
+          <h1 class="section-notice__header">Notice</h1>
+          <p class="section-notice__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            aliquid necessitatibus possimus explicabo cupiditate enim quia,
+            consequatur ullam beatae iure? Similique sapiente nemo dolorum,
+            minus voluptatibus quia iure? Sunt, voluptates.
+          </p>
+
+          <button class="button-hands">Hands</button>
+
+          <button class="modal__button" type="button" data-action="open-modal">
+            Open
+          </button>
+
+          <div class="modal__backdrop js-backdrop">
+            <div class="modal__window">
+              <h2 class="modal__header">Mandolino</h2>
+              <p class="">
+                This modal window is
+                <span class="modal__text">the best I've seen</span>.
+              </p>
+              <button
+                type="button"
+                class="modal__button"
+                data-action="close-modal"
+              >
+                Closed
+              </button>
+            </div>
+          </div>
+
+          <ul class="underline-menu">
+            <li class="underline-menu__item">
+              <a href="" class="underline-menu__link">First Link</a>
+            </li>
+            <li class="underline-menu__item">
+              <a href="" class="underline-menu__link">Second Link</a>
+            </li>
+            <li class="underline-menu__item">
+              <a href="" class="underline-menu__link">Third Link</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section cup">
+        <div class="container">
+          <ul class="cup__list">
+            <li class="cup__item">
+              <a href="" class="cup__link"
+                ><img src="/images/1.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/2.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/3.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/4.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/5.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/6.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/7.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/8.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+            <li class="cup__item">
+              <a href=""
+                ><img src="/images/9.jpg" alt="" width="320" class="cup_img"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="section">
+        <div class="container">
+          <h2 class="footer__header">It`s a footer</h2>
+        </div>
+      </section>
+    </footer>
+    <script src="./script.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
